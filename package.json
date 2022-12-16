@@ -1,0 +1,21 @@
+{
+  "name": "parcel-boilerplate",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel --port 3000",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/plugin-transform-classes": "^7.20.2",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "autoprefixer": "^10.4.13",
+    "parcel": "^2.8.1",
+    "postcss": "^8.4.20"
+  },
+  "browerslist": [
+    "> 1%",
+    "last 2versions"
+  ]
+}
